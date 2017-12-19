@@ -1,8 +1,8 @@
 <?php
-    require 'vendor/autoload.php';
+    //require 'vendor/autoload.php';
     require_once('Routes.php');
     
-    /* function __autoload($class_name){
+     function __autoload($class_name){
         
         if(file_exists('./app/'.$class_name.'.php')){
             
@@ -16,5 +16,5 @@
             
             require_once './vendor/'.$class_name.'.php';
         }
-    } */
+    } 
 ?>
